@@ -1,0 +1,78 @@
+.top {
+	display: flex;
+	flex-direction: column;
+}
+
+.top-banner{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width:100%;
+}
+
+.container1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width:100%;
+}
+
+.culture_row1 {
+	display: flex;
+	align-items: center;
+	width:100%;
+
+	.card img {
+		width:100%;
+	}
+}
+
+.video_row2 {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+
+	.card img {
+		width:100%;
+	}
+}
+
+
+.down {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width:100%;
+}
+
+.down-banner{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.down-banner__row1{
+	display: flex;
+	align-items: center;
+
+	.card img {
+		width:100%;
+	}
+}
+
+.down-banner__row2{
+	display: flex;
+
+	.card img {
+		width:100%;
+	}	
+}
+
+
+/* Popular banner  */
+.popular {
+	width: 100%;
+}

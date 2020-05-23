@@ -1,0 +1,37 @@
+@import "reset/reset",
+		"header/header",
+		"navbar/navbar",
+		"article/article",
+		"flex/flex",
+		"footer/footer",
+		"mediaquery/mediaquery";
+
+main {
+	width: 90%;
+	margin: 0 auto;
+
+	img {
+		width:100%;
+	}
+}
+
+.time{
+	width: 100%;
+	text-align: right;
+}
+
+.top_news{
+	background-color: lightgrey;
+	height: 3em;
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
+}
+
+
+.popular{
+	background-color: lightgrey;
+	height: 3em;
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
+}
+
